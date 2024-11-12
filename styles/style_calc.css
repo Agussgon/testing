@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+  }
+  
+  .dark , main{
+    background-color: rgb(78, 78, 78);
+    color:rgb(189, 174, 199);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container{
+
+    width: 70%;
+    height: 60%;
+  /*  border:solid 3px rgb(140, 156, 173); */
+    margin: 3rem;
+}
+
+#estoId{ 
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+#num1,#num2{
+  margin-bottom:0.3rem
+}
+
+.button{
+  border-radius: 5%;
+
+  padding:5% ;
+  background-color: #916fcf;
+
+}
+
+.container-button{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 11rem;
+  
+}
+
+#volverBtn{
+  width: 4.5em;
+  height: 2em;
+  display: flex;
+ align-content: center;
+ 
+}
